@@ -1,0 +1,27 @@
+{
+  "name": "till-homework",
+  "version": "1.0.0",
+  "description": "Please review the instructions below to complete the assignment. When complete, please share a private GitHub repository with the user [recursivefunk](https://github.com/recursivefunk), containing your solution.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node --inspect index.js",
+    "test": "jest",
+    "test:w": "jest --watchAll",
+    "test:wv": "jest --watchAll --verbose false"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "Promise": "^1.0.5",
+    "babel-jest": "^29.2.0",
+    "dotenv": "^16.0.3",
+    "test-jest": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.19.4",
+    "@types/jest": "^29.1.2",
+    "jest": "^29.2.0"
+  }
+}
